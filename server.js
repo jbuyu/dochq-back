@@ -21,6 +21,11 @@ const mailer = nodemailer.createTransport({
     pass: process.env.PASSWORD,
   },
 });
+app.get("/", (req, res) => {
+  res.json({
+    message: "doc-api",
+  });
+});
 
 app.post("/form", (req, res) => {
   const { newClientData } = req.body;
