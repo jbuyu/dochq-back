@@ -34,7 +34,7 @@ app.post("/form", (req, res) => {
                 <h3>Name: ${newClientData.name}</h3>
                 <h3>Phone: ${newClientData.phone}</h3>
                 <h4>Consultation: ${newClientData.consultation}</h4>
-                <h4>Symptoms:$ {newClientData.symptoms}</h4>
+                <h4>Symptoms: ${newClientData.symptoms}</h4>
                 <h4>Gender: ${newClientData.gender}</h4>
                 <h4>Age: ${newClientData.age}yrs</h4>
                 <h4>Email: ${newClientData.email}</h4>
